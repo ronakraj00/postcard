@@ -1,0 +1,85 @@
+@font-face {
+  font-family: journal;
+  src: url(JOURNAL.TTF);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: typewriter;
+  src: url(typewriter.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* *{
+  border: 1px solid blue;
+} */
+
+
+img{
+  height: auto;
+  width: 700px;
+  position: absolute;
+}
+
+form{
+  font-family:typewriter;
+  position: relative;
+  left:370px;
+  top: 160px;
+  width: 300px;
+  
+}
+
+input{
+  background: none;
+  border: none;
+  font-family: journal;
+  font-size: 2em;
+  padding: 0px;
+  margin: 0px;
+  width:200px;
+}
+
+input:focus{
+  border: none !important;
+  background: none !important;
+}
+
+#pin{
+  padding-left: 8px;
+  width: 230px;
+  letter-spacing:30px;
+  position: relative;
+
+}
+
+[for="pin"]{
+  background-color: #F2D59D;
+  position: relative;
+  bottom: 14px;
+  right:17px;
+  letter-spacing: 1px;
+}
+
+#message{
+  position: absolute;
+  left:-350px;
+  top:-130px;
+  background: none;
+  font-family: journal;
+  font-size: 2em;
+  border: none;
+}
+
+button{
+  background:none;
+  border:none;
+  font-family: typewriter;
+  margin-top:18px;
+}
+
+button::after{
+  content: " >>>";
+}
